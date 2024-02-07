@@ -1,6 +1,6 @@
 fastapi
 numpy
 pandas
-sklearn
+scikit-learn
 uvicorn
 pyarrow
