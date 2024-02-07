@@ -1,6 +1,7 @@
 import funciones
 from funciones import *
 from fastapi import FastAPI
+from fastapi import Query
 import pandas as pd
 
 app = FastAPI()
