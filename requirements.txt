@@ -3,4 +3,3 @@ numpy
 pandas
 uvicorn
 pyarrow
-pickle
