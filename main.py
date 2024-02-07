@@ -15,8 +15,6 @@ def developer(desarrollador: str):
     resultadodeveloper = funciones.developer(desarrollador)
     return resultadodeveloper
 
-Developer = developer('Valve')
-print(Developer)
 
 
 @app.get("/userdata",
