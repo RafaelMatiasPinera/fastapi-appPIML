@@ -45,11 +45,9 @@ def developer_reviews_analysis_endpoint(desarrolladora: str):
     return developer_reviews_analysis(desarrolladora)
 
 
-@app.get("/recommendations/{user_id}", tags=["Recommendation"])
+@app.get("/recommendations", 
+	    description="Esta función devuelve la recomendación de hasta 5 juegos según el modelo user item de filtro colaborativo.",
+	    tags=["Recommendation"])
 def get_recommendations(user_id: int, n: 6):
-    """
-    This endpoint takes a user ID and returns recommended games for that user.
-    """
     # Call your recommendation function
-    recommendations = recomendacion_usuario(user_id, n)
-    return recommendations
+    return recommendations(user_id)
