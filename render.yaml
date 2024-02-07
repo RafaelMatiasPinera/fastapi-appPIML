@@ -1,0 +1,12 @@
+services:
+  # A Docker web service
+  - type: web
+    name: fastapi-example
+    runtime: python
+    plan: free
+    autoDeploy: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: |
+      pip install uvicorn
+      uvicorn main:app --host 0.0.0.0 --port $PORT & sleep 3 && xdg-open http://127.0.0.1:8000/docs#
+
