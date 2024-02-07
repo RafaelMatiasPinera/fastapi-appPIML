@@ -55,3 +55,4 @@ POR ULTIMO
 -Hice el deploy con Render. Se puede observar ingresando a este link:
 https://fast-api-pi1-ml-a41b.onrender.com/docs#/
 -video explicando el proyecto:
+https://youtu.be/RBxk0ctXU1Y
