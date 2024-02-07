@@ -50,3 +50,8 @@ Paso las funciones en limpio y las defino junto con la de ML en el archivo "func
 Instalo FastAPI.
 Creo una cuenta en Render.
 Creo el archivo main que hace las consultas con FastAPI.
+
+POR ULTIMO
+-Hice el deploy con Render. Se puede observar ingresando a este link:
+https://fast-api-pi1-ml-a41b.onrender.com/docs#/
+-video explicando el proyecto:
